@@ -1,0 +1,52 @@
+.container {
+  margin-top: 80px;
+  padding: 0 100px;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-gap: 50px;
+}
+
+.container .meals {
+  margin-top: 50px;
+}
+
+.container .meals .search-box {
+  width: 350px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 9fr 2fr;
+}
+.container .meals .search-box input {
+  border: none;
+  outline: none;
+  height: 100%;
+  padding: 0 10px;
+  font-size: 16px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.container .meals .search-box button {
+  border-radius: 0;
+  border: none;
+  outline: none;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.container .meals .meals-container {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+
+.meals-cart {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  position: relative;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+.meals-cart .cart-container {
+  position: fixed;
+  top: 100px;
+}

@@ -1,0 +1,43 @@
+.meal-card {
+  position: relative;
+  width: 350px;
+  height: 500px;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.meal-card .img-box {
+  height: 250px;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.meal-card .img-box img {
+  width: 100%;
+}
+
+.meal-detail {
+  position: relative;
+}
+
+.meal-detail h3 {
+  font-size: x-large;
+  text-align: center;
+}
+
+.meal-detail .sub-title {
+  margin-top: 20px;
+  display: grid;
+  gap: 10px;
+}
+
+.meal-detail .sub-title p {
+  font-size: small;
+}
+
+.meal-detail .sub-title p a {
+  cursor: pointer;
+}

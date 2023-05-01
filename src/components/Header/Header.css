@@ -1,0 +1,29 @@
+.navbar {
+  height: 80px;
+  width: 100%;
+  background-color: #7f7f7f;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 100px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.navbar .logo {
+  cursor: pointer;
+}
+
+.navbar .logo h1 {
+  font-size: 30px;
+}
+
+.navbar .menu a {
+  color: #f3f3f3;
+  font-weight: 400;
+  margin-left: 20px;
+  font-size: 17px;
+}
