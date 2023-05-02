@@ -3,6 +3,7 @@ import "./Meals.css"
 import { ImSearch } from "react-icons/im";
 import MealDetail from '../MealDetail/MealDetail';
 import Cart from '../Cart/Cart';
+import { addToDb } from '../../utilities/localStorage';
 
 const Meals = () => {
     const [meals, setMeals] = useState([]);
@@ -17,7 +18,7 @@ const Meals = () => {
     const handleAddToCart = (meal) => {
         const newCart = [...cart, meal];
         setCart(newCart)
-        console.log(meal)
+        addToDb(meal.idMeal)
     }
     
     return (

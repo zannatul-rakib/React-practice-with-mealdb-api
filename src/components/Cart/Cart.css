@@ -1,7 +1,14 @@
+.cart {
+  position: relative;
+  width: 100%;
+}
 .cart h3 {
   text-align: center;
 }
 
 li {
   list-style: none;
+}
+table {
+  width: 100%;
 }

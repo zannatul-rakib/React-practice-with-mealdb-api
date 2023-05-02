@@ -1,6 +1,6 @@
 import React from 'react';
 import "./MealDetail.css"
-import {BsArrowRight} from "react-icons/bs";
+import {BsCart} from "react-icons/bs";
 
 const MealDetail = (props) => {
     const { strMeal, strMealThumb, strArea, strCategory, strInstructions } = props.meal;
@@ -15,7 +15,7 @@ const MealDetail = (props) => {
                 <div className="sub-title">
                     <p>Area: {strArea}</p>
                     <span><small>category: {strCategory}</small></span>
-                    <p>{strInstructions.slice(0, 200)}... <a onClick={() => handleAddToCart(props.meal)}>Read More<BsArrowRight /></a></p>
+                   <button onClick={() => handleAddToCart(props.meal)}>Add to cart <BsCart/></button>
                 </div>
                 
             </div>

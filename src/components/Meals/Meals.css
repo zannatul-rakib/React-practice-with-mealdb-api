@@ -47,6 +47,6 @@
 }
 
 .meals-cart .cart-container {
-  position: fixed;
+  position: sticky;
   top: 100px;
 }
